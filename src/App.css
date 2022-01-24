@@ -1,0 +1,99 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 64px;
+  overflow: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(66, 225, 255, 1) 48%,
+    rgba(66, 67, 255, 1) 92%
+  );
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: rgb(110, 118, 125);
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  background-color: #405cf5;
+  color: #fff;
+  height: 44px;
+  margin-top: 16px;
+  padding: 8px;
+  font-size: 100%;
+  border: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: rgb(50 50 93 / 10%) 0 0 0 1px inset,
+    rgb(50 50 93 / 10%) 0 2px 5px 0, rgb(0 0 0 / 7%) 0 1px 1px 0;
+}
+
+.waveInput {
+  height: 44px;
+  border: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  width: 450px;
+  padding-left: 15px;
+}
+
+.waveInput:focus {
+  outline: none;
+}
+
+.waves {
+  display: flex;
+  flex-direction: column;
+}
+
+.waves-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.waveObject {
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.waveObject-from {
+  font-size: 12px;
+}
+
+.waveObject-msg {
+  font-size: 18px;
+  font-style: normal;
+}
+
+.waveObject-time {
+  font-size: 12px;
+  margin-left: auto;
+  color: rgb(110, 118, 125);
+}
