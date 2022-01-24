@@ -1,6 +1,6 @@
 # swaveportal
 
-![swaveportal](.screenshot.png)
+![swaveportal](./screenshot.png)
 
 This is my personal wave portal, the name stands for sporturno wave portal.
 
