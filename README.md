@@ -17,6 +17,7 @@ In this webiste anyone on the internet can send me a wave (message) and have tha
 - Deployed with [Rinkeby](https://rinkeby.io/#stats) test network
 - Contract address: **0xafDa0d14Aa2AfF61292704bD442D0FB083eAC25C**, also check this link: [rinkeby.etherscan](https://rinkeby.etherscan.io/address/0xafDa0d14Aa2AfF61292704bD442D0FB083eAC25C)
 - Users must connect using [Metamask](https://metamask.io)
+- Broadcast transaction to miners with [Alechemy](https://www.alchemy.com/)
 
 ---
 
